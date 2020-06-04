@@ -1,0 +1,40 @@
+.ArticleContainer {
+  width: initial;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  display: flex;
+  padding: 10px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 10px;
+  .containerImg{
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+    .HeaderImgPerfil{
+      background-color: white;
+      border: 1px solid gray;
+    }
+  }
+  .ContainerContenido{
+    width: 100%;
+    .DetallePerfil{
+      display: flex;
+      justify-content: space-between;
+      p{
+        color: grey;
+        font-size: 16px;
+      }
+    }
+    .ArticuleMedia{ 
+      .ArticleIcons{
+        img{
+          width: 35px;
+          height: 35px;
+        }
+      }
+    }
+  }
+}
+.ArticleContainer:hover{
+  background: rgb(219, 229, 255);
+}

@@ -1,0 +1,14 @@
+.SuperMaps{
+  width: 99vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 55px;
+  .ContainerGenture{
+    width: 34vw;
+    justify-content: space-evenly;
+  }
+  .ContainerContent{
+    width: 55vw;
+    justify-content: space-evenly;
+  }
+}

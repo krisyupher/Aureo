@@ -1,0 +1,29 @@
+.ThumbnailPerfilContainer{
+  background-color: rgba(228, 228, 228, 0.507);
+  border-radius: 10px;
+  margin: 3px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  .ThumbnailPerfilImgName{
+    display: flex;
+    img{
+      width: 40px;
+      height: 40px;
+      border: 1px solid gray;
+      border-radius: 50%;
+    }
+    .ThumbnailPerfilName{
+      margin-left: 8px;
+    }
+  }
+  button{
+    width: 30%;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(30, 113, 190);
+    color: white;
+  }
+}

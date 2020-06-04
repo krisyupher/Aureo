@@ -1,0 +1,40 @@
+.ThumbnailVideoContainer {
+  display: flex;
+  height: 80px;
+  margin-bottom: 8px;
+  background-color: white;
+  cursor: pointer;
+}
+.descripcion {
+  width: calc(100% - 175px);
+  padding: 8px;
+  word-break: break-word;
+  height: 100%;
+  line-height: 1.2;
+  position: relative;
+  overflow: hidden;
+}
+.descripcion h4 {
+  margin: 2px 0 5px;
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+.descripcion p {
+  margin: 0;
+  font-size: 13px;
+  color: #AAA;
+}
+.video-list {
+  width: 135px;
+  height: 100%;
+  border: 1px solid #CCC;
+  background-color: rgba(124, 124, 124, 0.9);
+}
+.time{
+  position: absolute;
+  margin: 2px;
+  color: #FFF;
+  font-size: 13px;
+  background-color: rgba(0, 0, 0, 0.7);
+}

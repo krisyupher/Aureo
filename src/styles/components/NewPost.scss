@@ -1,0 +1,59 @@
+.NewPostContainer{
+  background-color: white;
+  width: inherit;
+  border-radius: 10px;
+  margin-top: 10px;
+  .Title{
+    background-color: #f5f6f7;
+    padding: 1% 2%; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    color: rgb(97, 97, 97);
+  }
+  .PostContent{
+    padding: 10px;
+    display: flex;
+    input {
+      width: 100%;
+      font-size: 21px;
+      padding: 0 1%;
+      border: none;
+    }
+    .HeaderImgPerfil{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      margin: auto 20px auto 0;
+    }
+  }
+  .ContainerOptionPost{
+    border-top: 1px solid rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f6f7;
+    padding: 2px 2% 2px 8%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    .OptionPost{
+      img {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border-radius: 50%;
+      }
+      img:hover{
+        background: rgb(206, 219, 236);
+      }
+    }
+    .ButtonContainer{
+      background-color: #94b5e6;
+      font-size: 18px;
+      padding: 7px 10px;
+      border-radius: 10px;
+      color: white;
+      border: none;
+    }
+  }
+}

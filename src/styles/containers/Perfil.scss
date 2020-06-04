@@ -1,0 +1,39 @@
+.Perfil{
+  width: 99vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 55px;
+  .ContainerGenture{
+    width: 34vw;
+    justify-content: space-evenly;
+    .GestureContainer{
+      height: 100vh;
+      width: inherit;
+      min-width: 377px;
+      position: fixed;
+      .MediaPrimario{
+        width: 100%;
+        height: 38vh;
+        background: #dfdfdf;
+      }
+      .ContainerInformacionDePerfil{
+        .ContainerInformacionDeActividad{
+          display: flex;
+          justify-content: space-around;
+          font-size: 21px;
+          .PopUp-content{
+            max-width: 35vh;
+            height: 55vh;
+          }
+          .PopUpClass{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .ContainerContent{
+    width: 55vw;
+    justify-content: space-evenly;
+  }
+}

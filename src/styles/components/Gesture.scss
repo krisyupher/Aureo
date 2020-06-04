@@ -1,0 +1,25 @@
+.GestureContainer{
+  height: 100vh;
+  width: 34vw;
+  min-width: 377px;
+}
+.GestureContainerConten{
+  position: fixed;
+  width: inherit;
+  height: inherit;
+  .MediaPrimario{
+    width: 100%;
+    height: 38vh;
+    background: #dfdfdf;
+    video, img{
+      width: inherit; 
+      height: inherit;
+    }
+  }
+}
+.TabPanelContainer{
+  border: 1px solid gray;
+}
+.react-tabs{
+  height: 100%;
+}

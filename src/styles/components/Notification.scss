@@ -1,0 +1,11 @@
+.NotificationContainer{
+  display: flex;
+  border: 1px solid grey;
+  .ContainerContenido{
+    width: 100%;
+    .DetallePerfil{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

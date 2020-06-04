@@ -1,0 +1,16 @@
+.Store{
+  width: 99vw;
+  display: flex;
+  justify-content: space-evenly;
+  .ContainerGenture{
+    margin-top: 55px;
+    width: 34vw;
+    justify-content: space-evenly;
+  }
+  .ContainerContent{
+    margin-top: 55px;
+    width: 55vw;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

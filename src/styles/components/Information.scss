@@ -1,0 +1,19 @@
+.informationContainer{
+  display: flex;
+  padding: 1rem;
+}
+.informationContainer .ContainerIMG img{
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.informationContainer .containerData{
+  padding: 0 1rem;
+}
+.informationContainer .containerData .DataPerfil{
+  margin-bottom: 1rem;
+}
